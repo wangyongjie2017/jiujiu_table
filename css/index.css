@@ -1,0 +1,35 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background: #218584;
+}
+
+.temp{
+	margin: 10px 0;
+}
+
+.paper{
+	color: #218584;
+	background: #fff;
+	font-size: 14px;
+	text-align: center;
+	margin-right: 10px;
+	display: inline-block;
+	width: 80px;
+	height: 30px;
+	border-radius: 5px;
+	line-height: 30px;
+}
+
+.paper:hover{
+	// transform: rotateX(180deg);
+	transition: 0.5s;
+	background: red;
+	box-shadow: 0px 10px 10px gray;
+}
+
+.paper:active{
+}
